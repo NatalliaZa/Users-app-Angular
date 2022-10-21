@@ -1,0 +1,49 @@
+.user-post-container {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  app-user-post {
+    padding: 20px;
+    margin: 20px;
+
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid brown;
+
+    &:hover {
+      background-color: burlywood;
+      cursor: pointer;
+    }
+  }
+}
+.userInfo {
+  margin-left: 40%;
+}
+button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid brown;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: brown;
+  transition: .2s ease-in-out;
+  background-color: #FFE4B5;
+
+  &:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+}
+
+.userInfo{
+  color: brown;
+}

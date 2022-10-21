@@ -1,0 +1,27 @@
+.users-list-container {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    border-radius: 8px;
+
+    app-user-item{
+        padding: 20px;
+        margin: 20px;
+
+        width: 200px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 1px solid brown;
+
+        color: brown;
+
+        &:hover{
+            background-color: burlywood;
+            cursor: pointer;
+        }
+    }
+}
